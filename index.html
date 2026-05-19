@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>El Navajero | Barbería Premium · Ecuador</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVEGACIÓN -->
+<nav>
+  <a class="nav-logo" href="#hero">El <span>Navajero</span></a>
+  <ul class="nav-links">
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#precios">Precios</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+  <a class="nav-cta" href="https://wa.me/593987654321?text=Hola%2C%20quiero%20reservar%20un%20turno" target="_blank">📱 Reservar</a>
+  <div class="nav-burger" aria-label="Abrir menú" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- MENÚ MÓVIL -->
+<div class="nav-mobile-menu" id="mobileMenu">
+  <a href="#servicios">Servicios</a>
+  <a href="#precios">Precios</a>
+  <a href="#nosotros">Nosotros</a>
+  <a href="#contacto">Contacto</a>
+  <a href="https://wa.me/593987654321?text=Hola%2C%20quiero%20reservar%20un%20turno" target="_blank" style="color:#c9a84c">📱 Reservar por WhatsApp</a>
+</div>
+
+<!-- HÉROE -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-lines"></div>
+  <div class="hero-scissors">✂</div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Desde 2010 · Guayaquil, Ecuador</p>
+    <h1>El arte del<br><em>buen corte</em></h1>
+    <p class="hero-sub">Barbería premium donde la tradición y el estilo se encuentran. Cortes, afeitados y tratamientos de alta calidad para el hombre moderno.</p>
+    <div class="hero-actions">
+      <a class="btn-primary" href="https://wa.me/593987654321?text=Hola%2C%20quiero%20reservar%20un%20turno" target="_blank">✂ Reservar por WhatsApp</a>
+      <a class="btn-outline" href="#servicios">Ver Servicios</a>
+    </div>
+  </div>
+  <div class="hero-badge">Scroll</div>
+</section>
+
+<!-- ESTADÍSTICAS -->
+<div id="stats">
+  <div class="stat">
+    <div class="stat-num">15+</div>
+    <div class="stat-label">Años de experiencia</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">8k+</div>
+    <div class="stat-label">Clientes satisfechos</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">3</div>
+    <div class="stat-label">Barberos expertos</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">★4.9</div>
+    <div class="stat-label">Calificación Google</div>
+  </div>
+</div>
+
+<!-- SERVICIOS -->
+<section id="servicios">
+  <div class="services-header">
+    <p class="section-label">Nuestros servicios</p>
+    <h2 class="section-title">Lo que hacemos <em>muy bien</em></h2>
+    <p class="section-sub">Cada servicio es realizado por barberos certificados con productos de primera calidad.</p>
+  </div>
+  <div class="services-grid">
+
+    <div class="service-card">
+      <span class="service-tag tag-popular">Popular</span>
+      <span class="service-icon">✂️</span>
+      <div class="service-name">Corte Clásico</div>
+      <p class="service-desc">Corte completo con tijera y máquina, perfilado de nuca y acabado perfecto. Incluye lavado y secado.</p>
+      <div class="service-price">$8 <small>/ servicio</small></div>
+    </div>
+
+    <div class="service-card">
+      <span class="service-icon">🪒</span>
+      <div class="service-name">Afeitado con Navaja</div>
+      <p class="service-desc">Experiencia tradicional de barbería: toalla caliente, espuma artesanal, navaja de precisión y masaje facial.</p>
+      <div class="service-price">$10 <small>/ servicio</small></div>
+    </div>
+
+    <div class="service-card">
+      <span class="service-tag tag-popular">Popular</span>
+      <span class="service-icon">💈</span>
+      <div class="service-name">Corte + Barba</div>
+      <p class="service-desc">El combo completo: corte de cabello más arreglo y perfilado de barba. El servicio más solicitado de la casa.</p>
+      <div class="service-price">$14 <small>/ servicio</small></div>
+    </div>
+
+    <div class="service-card">
+      <span class="service-icon">🧔</span>
+      <div class="service-name">Arreglo de Barba</div>
+      <p class="service-desc">Perfilado, delineado y acondicionamiento de barba. Define tu estilo con precisión milimétrica.</p>
+      <div class="service-price">$6 <small>/ servicio</small></div>
+    </div>
+
+    <div class="service-card">
+      <span class="service-tag tag-new">Nuevo</span>
+      <span class="service-icon">💆</span>
+      <div class="service-name">Tratamiento Capilar</div>
+      <p class="service-desc">Hidratación profunda con keratina, masaje de cuero cabelludo y nutrición para cabello sano y fuerte.</p>
+      <div class="service-price">$18 <small>/ servicio</small></div>
+    </div>
+
+    <div class="service-card">
+      <span class="service-icon">👦</span>
+      <div class="service-name">Corte Niños</div>
+      <p class="service-desc">Servicio especial para los más pequeños (hasta 12 años). Ambiente amigable, rápido y sin complicaciones.</p>
+      <div class="service-price">$5 <small>/ servicio</small></div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PRECIOS COMPLETOS -->
+<section id="precios">
+  <p class="section-label">Lista de precios</p>
+  <h2 class="section-title">Tarifas <em>transparentes</em></h2>
+  <p class="section-sub">Sin sorpresas. Precios fijos en dólares americanos.</p>
+  <div class="price-columns">
+    <div class="price-col">
+      <div class="price-col-title">✂ Cabello</div>
+      <div class="price-row">
+        <div class="price-item">Corte clásico</div>
+        <div class="price-amount">$8</div>
+      </div>
+      <div class="price-row">
+        <div class="price-item">Corte tijera <span class="price-item-note">técnica artesanal</span></div>
+        <div class="price-amount">$10</div>
+      </div>
+      <div class="price-row">
+        <div class="price-item">Degradado / Fade</div>
+        <div class="price-amount">$9</div>
+      </div>
+      <div class="price-row">
+        <div class="price-item">Corte + diseño en líneas</div>
+        <div class="price-amount">$12</div>
+      </div>
+      <div class="price-row">
+        <div class="price-item">Corte niños (hasta 12 años)</div>
+        <div class="price-amount">$5</div>
+      </div>
+      <div class="price-row">
+        <div class="price-item">Lavado y secado</div>
+        <div class="price-amount">$4</div>
+      </div>
+    </div>
+    <div class="price-col">
+      <div class="price-col-title">🪒 Barba & Extras</div>
+      <div class="price-row">
+        <div class="price-item">Arreglo de barba</div>
+        <div class="price-amount">$6</div>
+      </div>
+      <div class="price-row">
+        <div class="price-item">Afeitado con navaja</div>
+        <div class="price-amount">$10</div>
+      </div>
+      <div class="price-row">
+        <div class="price-item">Corte + Barba (combo)</div>
+        <div class="price-amount">$14</div>
+      </div>
+      <div class="price-row">
+        <div class="price-item">Tratamiento capilar <span class="price-item-note">keratina + masaje</span></div>
+        <div class="price-amount">$18</div>
+      </div>
+      <div class="price-row">
+        <div class="price-item">Tinte / coloración</div>
+        <div class="price-amount">$20+</div>
+      </div>
+      <div class="price-row">
+        <div class="price-item">Cejas (perfilado)</div>
+        <div class="price-amount">$3</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- NOSOTROS -->
+<section id="nosotros">
+  <div class="about-visual">
+    <div class="about-bg-text">1910</div>
+    <div class="about-art">
+      <div class="barber-pole"></div>
+    </div>
+  </div>
+  <div class="about-text">
+    <p class="section-label">Nuestra historia</p>
+    <h2 class="section-title">Tradición con<br><em>alma moderna</em></h2>
+    <p>Somos una barbería familiar fundada en Quito con más de 15 años de trayectoria. Nacimos del amor por el oficio clásico del barbero, ese que convierte un simple corte en un momento de cuidado personal y confianza.</p>
+    <p>Combinamos técnicas tradicionales con tendencias contemporáneas, usando productos premium nacionales e importados para garantizar resultados que hablan por sí solos.</p>
+    <div class="about-feats">
+      <div class="feat">
+        <div class="feat-icon">🏆</div>
+        Barberos certificados internacionalmente
+      </div>
+      <div class="feat">
+        <div class="feat-icon">🧴</div>
+        Productos de primera calidad, 100% profesionales
+      </div>
+      <div class="feat">
+        <div class="feat-icon">🇪🇨</div>
+        Orgullo quiteño con estilo global
+      </div>
+      <div class="feat">
+        <div class="feat-icon">💈</div>
+        Higiene y esterilización certificada
+      </div>
+    </div>
+    <a class="btn-outline" href="https://wa.me/593998222519?text=Hola%2C%20quiero%20más%20información" target="_blank" style="margin-top:.5rem;align-self:flex-start;">Escríbenos →</a>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- TESTIMONIOS -->
+<section id="testimonios">
+  <p class="section-label">Testimonios</p>
+  <h2 class="section-title">Lo que dicen <em>nuestros clientes</em></h2>
+  <div class="testi-grid">
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p class="testi-text">"El mejor fade que me han hecho en toda mi vida. El ambiente es genial, la música buenísima y el trato muy profesional. Ya no voy a ningún otro lado."</p>
+      <div class="testi-author">
+        <div class="testi-avatar">CM</div>
+        <div>
+          <div class="testi-name">Carlos M.</div>
+          <div class="testi-city">La Floresta, Quito</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p class="testi-text">"Llevé a mi hijo por primera vez y quedó feliz. Los barberos son muy pacientes con los niños y el corte quedó precioso. ¡Volvemos la próxima semana!"</p>
+      <div class="testi-author">
+        <div class="testi-avatar">MV</div>
+        <div>
+          <div class="testi-name">Marcela V.</div>
+          <div class="testi-city">Cumbayá, Quito</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p class="testi-text">"El afeitado con navaja fue una experiencia increíble. Toalla caliente, crema artesanal... te sentís en una barbería de película. Precio más que justo."</p>
+      <div class="testi-author">
+        <div class="testi-avatar">AP</div>
+        <div>
+          <div class="testi-name">Andrés P.</div>
+          <div class="testi-city">El Batán, Quito</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACTO + MAPA -->
+<section id="contacto" style="padding:0">
+  <div class="contact-info">
+    <p class="section-label" style="margin-top:5rem">Encuéntranos</p>
+    <h2 class="section-title" style="margin-bottom:1rem">Visítanos o<br><em>escríbenos</em></h2>
+    <div class="contact-grid">
+      <div class="contact-item">
+        <div class="contact-icon">📍</div>
+        <div>
+          <div class="contact-label">Dirección</div>
+          <div class="contact-val">Malecon 2000<br>Guayaquil, Ecuador</div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📱</div>
+        <div>
+          <div class="contact-label">WhatsApp / Teléfono</div>
+          <div class="contact-val"><a href="https://wa.me/593998222519" target="_blank">+593 99 822 519</a></div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📸</div>
+        <div>
+          <div class="contact-label">Instagram</div>
+          <div class="contact-val"><a href="https://instagram.com/danisan151" target="_blank">@danisan151</a></div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📧</div>
+        <div>
+          <div class="contact-label">Email</div>
+          <div class="contact-val"><a href="mailto:danielyaucan15@gmail.com">danielyaucan15@gmail.com</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hours-grid">
+      <div class="hours-title">🕐 Horario de atención</div>
+      <div class="hours-row"><span>Lunes – Viernes</span><span>9:00 – 20:00</span></div>
+      <div class="hours-row"><span>Sábado</span><span>8:00 – 19:00 <span class="open-badge">✔ Abierto</span></span></div>
+      <div class="hours-row"><span>Domingo</span><span>9:00 – 15:00</span></div>
+    </div>
+
+    <a class="btn-primary" href="https://wa.me/593998222519?text=Hola%2C%20quiero%20reservar%20un%20turno" target="_blank" style="margin-top:2rem;display:inline-flex;">
+      💬 Reservar por WhatsApp
+    </a>
+  </div>
+
+  <div class="map-panel">
+    <!-- Cambia las coordenadas del src por las de tu local exacto -->
+    <iframe
+      class="map-embed"
+      loading="lazy"
+      allowfullscreen
+      referrerpolicy="no-referrer-when-downgrade"
+      src="https://www.google.com/maps?q=Malec%C3%B3n+2000,+Guayaquil,+Ecuador&output=embed"
+    ></iframe>
+    <div class="map-overlay">
+      <div class="map-name">El Navajero · Barbería</div>
+      <div class="map-addr">Malecón 2000, Guayaquil</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <a class="footer-logo" href="#hero">El Navajero</a>
+  <ul class="footer-links">
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#precios">Precios</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+  <p class="footer-copy">© 2025 El Navajero · Guayaquil, Ecuador</p>
+</footer>
+
+<!-- WhatsApp flotante -->
+<a class="whatsapp-float" href="https://wa.me/593998222519?text=Hola%2C%20quiero%20reservar%20un%20turno" target="_blank" aria-label="Chatear por WhatsApp">
+  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52 -.075 -.149 -.669 -1.612 -.916 -2.207 -.242 -.579 -.487 -.5 -.669 -.51 -.173 -.008 -.371 -.01 -.57 -.01 -.198 0 -.52 .074 -.792 .372 -.２７２ .２９７ -１．０４ １．０１６ -１．０４ ２．４７９ ０ １．４６２ １．０６５ ２．８７５ １．２１３ ３．０７４ .１４９ .１９８ ２．０９６ ３．₂ ５．₀７７ ４．⁴⁸⁷ .⁷⁰⁹ .³⁰⁶ １．²⁶² .⁴⁸⁹ １．⁶⁹⁴ .⁶²⁵ .⁷¹₂ .²²⁷ １．³⁶ .₁₉₅ １．₈₇₁ .₁₁₈ .５₇₁ -.₀₈₅ １．₇₅₈ -.₇₁₉ ２．₀₀₆ -₁.₄₁₃ .₂₄₈ -.₆₉₄ .₂₄₈ -₁.₂ Eighty-nine .₁₇₃ -₁.₄₁₃ -.₀₇₄ -.₁₂₄ -.₂ seventy-two -.₁ ninety-eight -=."/>
+  </svg>
+</a>
+
+<!-- JavaScript al final del body para mejor rendimiento -->
+<script src="web.js"></script>
+
+</body>
+</html>
